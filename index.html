@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon bureau tout propre</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   <div class="container">
+        <h1>Formulaire de nettoyage</h1>
+
+        <form action="/" method="post">
+    
+            <label for="surface">Surface des bureaux à nettoyer (en m²) :</label>
+            <input type="text" id="surface" name="surface">
+
+            <label for="frequence">Fréquence de nettoyage :</label>
+            <select id="frequence" name="frequence">
+                <option value="options">Options</option>
+                <option value="1">1 fois</option>
+                <option value="2">2 fois</option>
+                <option value="3">Tous les jours</option>
+            </select>
+
+            <label>Options vitres :</label>
+            <div class="radio-group">
+            <label><input type="radio" name="option" value="oui"> Oui</label>
+            <label><input type="radio" name="option" value="non"> Non</label>
+            </div>
+
+            <input type="submit" value="Envoyer">
+        </form>
+
+        <div class="prix"></div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
