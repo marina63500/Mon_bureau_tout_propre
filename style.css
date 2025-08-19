@@ -104,7 +104,7 @@ form label {
   font-weight: bold;
 }
 
-form input[type="text"],
+form input[type="number"],
 form select {
   width: 100%;
   padding: 10px;
@@ -144,3 +144,22 @@ form input[type="submit"]:hover {
 }
 
 
+.box{
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border: 3px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  background: lightblue;
+}
+
+#total {
+  list-style: none;
+  padding: 10px;
+
+}
+
+#total li {
+  margin: 10px ;
+}

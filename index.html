@@ -11,30 +11,42 @@
    <div class="container">
         <h1>Formulaire de nettoyage</h1>
 
-        <form action="/" method="post">
+        <form  id="formulaire"  action="#" method="post" >
     
             <label for="surface">Surface des bureaux à nettoyer (en m²) :</label>
-            <input type="text" id="surface" name="surface">
+            <input type="number" id="surface" name="surface" min="1">
 
             <label for="frequence">Fréquence de nettoyage :</label>
             <select id="frequence" name="frequence">
                 <option value="options">Options</option>
                 <option value="1">1 fois</option>
                 <option value="2">2 fois</option>
-                <option value="3">Tous les jours</option>
+                <option value="5">Tous les jours</option>
             </select>
 
-            <label>Options vitres :</label>
+            <label>Option vitres :</label>
             <div class="radio-group">
-            <label><input type="radio" name="option" value="oui"> Oui</label>
-            <label><input type="radio" name="option" value="non"> Non</label>
+            <label><input type="radio" name="vitre" value="true"> Oui</label>
+            <label><input type="radio" name="vitre" value="false"> Non</label>
             </div>
 
             <input type="submit" value="Envoyer">
         </form>
+    </div>    
 
-        <div class="prix"></div>
+    <div class="box">
+        <div id="prix"></div>  
+        <div id="majoration"></div>
+        <div id="optionSup"></div>
     </div>
+
+    
+    <div id="total" class="box">
+        <li>Montant HT : </li>
+        <li>TVA (20%) : </li>
+        <li>Montant TTC : </li>
+    </div>
+   
 
     
 
