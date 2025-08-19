@@ -1,7 +1,7 @@
 
 ---
 
- I _👉 Présentation du projet :
+# I _👉 **Présentation du projet :**
 - Ce projet est une application qui permet de calculer automatiquement les prix d'une prestation  de nettoyage des bureaux en fonction de plusoieurs critères :
     - Surfaces à nettoyer des bureaux
     - Fréquence de nettoyage
@@ -9,7 +9,7 @@
     - un Résultat qui calcule le montant HT,TVAet montant TTC
 
 
-II _⚙️ Utilisation :
+# II _⚙️ **Utilisation :**
     -Pour cloner le projet :
         git clone https://github.com/marina63500/Mon_bureau_tout_propre.git
 cd projet-nettoyage
@@ -20,7 +20,7 @@ cd projet-nettoyage
         - cliquer sur le bouton
 
 
-III _ 🚀 Fonctionnalités :
+# III _ 🚀**Fonctionnalités :**
  En trois parties
  - formulaire basic avec :
         - Champ de saisie de surface en m²,
@@ -33,7 +33,7 @@ III _ 🚀 Fonctionnalités :
  TVA,et d'un cout total du service en TTC
 
 
-IV _ 🛠️ Tecnologies utilisées :
+# IV _ 🛠️**Tecnologies utilisées :**
 
     3 technologies font-end
         - HTML5 pour la stucture du formulaire
@@ -41,7 +41,7 @@ IV _ 🛠️ Tecnologies utilisées :
         - Javascript (pur) pour la logique de calcul et affichage des résultats
 
 
-V _ 📂 Structure du projet
+# V _ 📂**Structure du projet**
 
 /projet-nettoyage
 │── index.html        # Page principale avec le formulaire
@@ -51,7 +51,7 @@ V _ 📂 Structure du projet
 
 
 
-VI_ Auteur
+# VI _**Auteur**
 
     -Marina STOLLESTEINER
     - Contact : marinastollesteiner@gmail.com
