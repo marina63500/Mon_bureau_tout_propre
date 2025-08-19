@@ -55,9 +55,9 @@ form.addEventListener('submit', (e) =>{
 
   const total = document.getElementById("total");
   total.innerHTML = `
-    <li>Montant HT : ${montantHT} €</li>
-    <li>TVA (20%) : ${tva} €</li>
-    <li>Montant TTC : ${montantTTC} €</li>
+    <li>Montant HT : <strong>${montantHT} €</strong></li>
+    <li>TVA (20%) : <strong>${tva} €</strong></li>
+    <li>Montant TTC : <strong>${montantTTC} €</strong></li>
   `;
 
 });
